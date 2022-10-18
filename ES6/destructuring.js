@@ -10,3 +10,9 @@ const user = {
 
 const {username, role, fullname} = user;
 console.log(username, role, fullname);
+
+printData(user);
+
+function printData({username, role, fullname}){
+    console.log(fullname);
+}
