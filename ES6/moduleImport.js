@@ -20,6 +20,6 @@ console.log(API_KEY) imprime API_KEY y printMessage*/
 
  si quiero que imprima los dos
  import {API_KEY, printMessage} from "./moduleExport.js";  
- console.log(API_KEY); imprime los dos 
+ console.log(API_KEY); 
  printMessage("Ejecutando funcion desde el IMPORT"); 
  */
