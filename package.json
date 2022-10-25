@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Novedades javascript",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/gloriainga/JavaScript/issues"
   },
-  "homepage": "https://github.com/gloriainga/JavaScript#readme"
+  "homepage": "https://github.com/gloriainga/JavaScript#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
 }
